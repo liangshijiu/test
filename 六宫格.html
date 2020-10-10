@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 500px;
+            height: 400px;
+            display: flex;
+            background-color: #666;
+            flex-wrap: wrap;
+            /* 沿主轴分配空间 */
+            justify-content: space-around;
+            /* 沿侧轴设置分配空间 */
+            align-content: space-around;
+        }
+
+        .box span {
+            width: 150px;
+            height: 150px;
+            background-color: #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</body>
+
+</html>
